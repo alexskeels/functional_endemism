@@ -3,9 +3,7 @@
 Script to reproduce the analyses from Skeels and Yaxley, "Functional endemism captures hotspots of unique phenotypes
 and restricted ranges". All data is publically available from the respective publications (see main text). However, we also make this data available in the data folder of this repository to reproduce the analysis completely. 
 
-================
-Dr. Alexander Skeels & Dr. Keaghan Yaxley
-2023-05-04
+Date: 2023-05-04
 
 # Set up
 
