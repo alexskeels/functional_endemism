@@ -1,6 +1,10 @@
 Function Endemism
+
+Script to reproduce the analysis from Skeels and Yaxley, "Functional endemism captures hotspots of unique phenotypes
+and restricted ranges". All data is publically available from the respective publications (see main text). However, we also make this data available in the data folder of this repository. 
+
 ================
-Alexander Skeels & Keaghan Yaxley
+Dr. Alexander Skeels & Dr. Keaghan Yaxley
 2023-05-04
 
 # Set up
@@ -31,6 +35,7 @@ proj_dir <- "Functional_endemism"
 ### Functions
 
 ``` r
+# This function is from Dr. Dan Rosauer and calculates PE following the method of Rosauer et al (2009)
 calc_PE <- function(tree, sites_x_tips,presence=c("presence","abundance","probability")) {
   
   # add code to check that the values are correct for the presence type:
