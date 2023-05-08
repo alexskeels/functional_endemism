@@ -27,7 +27,8 @@ library(gridExtra)
 ### Directory
 
 ``` r
-proj_dir <- "Functional_endemism"
+# unzip data folder and set as wd
+proj_dir <- "data"
 ```
 
 ### Functions
