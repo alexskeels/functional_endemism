@@ -39,7 +39,7 @@ Phylogenetic data is the majority rules consensus tree produced in B. C. Weeks, 
 
 Trait data is the the Avonet database from J. A. Tobias, C. Sheard, A. L. Pigot, et al., “Avonet: morphological, ecological and geographical data for all birds,” Ecology Letters, vol. 25, no. 3, pp. 581–597, 2022.
 
-The AVONET1_BirdLife.csv and singe_bird_phylo.tre are the exact files from those resources and is not hosted on this repository, while the bird_spatial_sparse_matrix.rds is a transofmration of the original spatial data from BirdLife international into sparse matrix of the presence and absence data which we include in this GitHub repository for ease of access.
+The AVONET1_BirdLife.csv and singe_bird_phylo.tre are the exact files from those resources and is not hosted on this repository, while the bird_spatial_sparse_matrix.rds is a transofmration of the original spatial data from BirdLife international into sparse matrix of the presence and absence data. To obtain a similar object, one needs to transform the data from BirdLife into a presence/absence matrix. I recommend usings the LetsR package for this. columns should be x, y, then species names and rows should be sites. This can be turned into a more manageable data object using the sparseMatrix function in the Matrix pacakge. We include a useable sparse matrix in this GitHub repository for ease of access.
 
 ### Load Data
 ```{r}
