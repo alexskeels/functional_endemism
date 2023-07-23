@@ -1,5 +1,7 @@
-Script to reproduce Skeels and Yaxley 2023, "Functional endemism captures hotspots of unique phenotypes and restricted ranges"
-Contact: alexander.skeels@gmail.com
+# Script to reproduce Skeels, A. and Yaxley, Y. 2023, Ecography, "Functional endemism captures hotspots of unique phenotypes and restricted ranges"
+### Contact: alexander.skeels@gmail.com
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Set up
 ### Libraries
